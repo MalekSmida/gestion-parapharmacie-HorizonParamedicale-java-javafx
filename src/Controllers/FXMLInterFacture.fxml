@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="606.0" prefWidth="605.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.FXMLIterFactureController">
+   <children>
+      <ImageView fitHeight="605.0" fitWidth="734.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resources/BGv1.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="86.0" layoutY="125.0" prefHeight="356.0" prefWidth="434.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Button layoutX="79.0" layoutY="205.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="276.0" style="-fx-background-color: #5B6B69;" text="Modifier" textFill="WHITE" />
+            <Button layoutX="79.0" layoutY="132.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="276.0" style="-fx-background-color: #5B6B69;" text="Supprimer" textFill="WHITE" />
+            <Button layoutX="79.0" layoutY="63.0" mnemonicParsing="false" onAction="#Facture" prefHeight="25.0" prefWidth="276.0" style="-fx-background-color: #5B6B69;" text="Ajouter" textFill="WHITE">
+               <effect>
+                  <Glow level="0.0" />
+               </effect></Button>
+            <Button layoutX="351.0" layoutY="317.0" mnemonicParsing="false" onAction="#menu" prefHeight="25.0" prefWidth="69.0" style="-fx-background-color: #5B6B69;" text="Menu" textFill="WHITE">
+               <effect>
+                  <Glow level="0.0" />
+               </effect>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</Pane>
